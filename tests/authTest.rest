@@ -1,0 +1,9 @@
+POST http://localhost:4000/user/register
+
+
+###
+POST http://localhost:4000/user/login
+
+###
+
+POST http://localhost:4000/user/getUser
