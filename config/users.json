@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "firstName": "King",
+    "lastName": "Hiholike",
+    "email": "king@gmail.com",
+    "password": "$2a$10$5Frr/QRsBBYOfudvqhF5meN.N.M1Dv3oT44FHK/hOycUH84ZaLPVO"
+  },
+  {
+    "firstName": "King",
+    "lastName": "Hiholike",
+    "email": "etangoking6@gmail.com",
+    "password": "$2a$10$Ek2xihgNisHTlOdhCmf5b.RSNzk1Q2cFRjl.BjAywO7ea4ebzPUGK"
+  }
+]

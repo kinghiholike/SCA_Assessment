@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const USERS_FILE = path.join(__dirname, '../users.json');
+const USERS_FILE = path.join(__dirname, '../config/users.json');
 
 // Helper function to read users from file
 const readUsersFromFile = () => {
