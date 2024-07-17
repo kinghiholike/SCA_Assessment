@@ -3,6 +3,7 @@ This is the SCA Assessment repo.
 Step 1: Clone the repo
 
 #Past the following comand in your deveopmet environment to clone the repo.
+  - git clone https://github.com/kinghiholike/SCA_Assessment.git
 
 
 Step 2:
