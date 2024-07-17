@@ -1,5 +1,9 @@
 const jwt = require('jsonwebtoken');
-const JWT_SECRET = '1234567890';
+const dotenv = require('dotenv');
+
+// Configure dotenv
+dotenv.config();
+const JWT_SECRET = process.env.JWT_SECRET
 
 // Middleware to authenticate user using JWT
 const authenticateUser = (req, res, next) => {

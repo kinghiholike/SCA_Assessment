@@ -4,9 +4,13 @@ const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const authenticateUser = require('../middleware/userAuth');
 const { readUsersFromFile, writeUsersToFile } = require('../helpers/helpers');
+const dotenv = require('dotenv');
+
+// Configure dotenv
+dotenv.config();
 
 // Secret key for JWT
-const JWT_SECRET = '1234567890';
+const JWT_SECRET = process.env.JWT_SECRET
 
 /* GET users listing. */
 router.get('/', function(req, res, next) {
