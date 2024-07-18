@@ -61,6 +61,6 @@ This project is licensed under the MIT License. See the LICENSE file for details
 Contact
 For any questions or support, please contact the project maintainer:
 
-Email: your-email@example.com
+Email: kinghiholike@gmail.com
 GitHub: kinghiholike
 This README provides a clear and structured overview of your project, making it easier for users to get started, understand how to contribute, and find additional information.
