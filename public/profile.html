@@ -3,18 +3,96 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profile</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <title>User Profile</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/x-icon" href="images//favicon.jpg">
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            background-image: url('images/learning-environment-school-pupils-actively-raising-their-hands-seek-teacher-attention_210545-2574.jpg');
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            padding: 0 20px; 
+        }
+        .card {
+            box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.4);
+            max-width: 1000px; /* Increase width */
+            width: 90%; 
+            margin: auto;
+            text-align: center;
+            background-color: #fff;
+            border-radius: 20px;
+            overflow: hidden;
+            padding: 50px;
+        }
+        .card img {
+            width: 20%;
+            height: auto;
+            border-bottom: 3px solid #f4f4f4;
+        }
+        .card h1 {
+            font-size: 60px;
+            margin: 20px 0 10px;
+        }
+        .card p.title {
+            color: grey;
+            font-size: 36px;
+            margin: 5px 0;
+        }
+        .card p {
+            font-size: 28px;
+            margin: 5px 0;
+        }
+        .card .social-links a {
+            text-decoration: none;
+            font-size: 40px;
+            color: black;
+            margin: 0 25px;
+            transition: opacity 0.3s ease;
+        }
+        .card .social-links a:hover {
+            opacity: 0.8;
+        }
+        .card button {
+            border: none;
+            outline: 0;
+            display: inline-block;
+            padding: 25px 50px;
+            color: white;
+            background-color: black;
+            text-align: center;
+            cursor: pointer;
+            width: 50%;
+            font-size: 28px;
+            margin-top: 20px;
+            border-radius: 8px;
+        }
+        .card button:hover {
+            opacity: 0.8;
+        }
+        .btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
 </head>
 <body>
-    <div class="container">
-        <h2>User Profile</h2>
-        <div id="profile">
-            <p><strong>Email:</strong> <span id="email"></span></p>
-            <p><strong>First Name:</strong> <span id="firstName"></span></p>
-            <p><strong>Last Name:</strong> <span id="lastName"></span></p>
+    <div class="card">
+        <img src="images/background.jpg" alt="Profile Image">
+        <h1 id="firstName">John</h1>
+        <p class="title" id="lastName">Doe</p>
+        <p id="email">user@example.com</p>
+        <div class="social-links" style="margin: 40px 0;">
+            <a href="#"><i class="fa fa-dribbble"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+            <a href="#"><i class="fa fa-facebook"></i></a>
         </div>
-        <button id="logoutButton" class="btn">Logout</button>
+        <p><button id="logoutButton">log-out</button></p>
     </div>
 
     <script src="js/profile.js"></script>
