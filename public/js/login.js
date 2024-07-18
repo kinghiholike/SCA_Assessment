@@ -16,7 +16,7 @@ document.getElementById('loginForm').addEventListener('submit', async (event) =>
 
     if (response.ok) {
         sessionStorage.setItem('token', result.token);
-        window.location.href = 'user.html';
+        window.location.href = 'profile.html';
     } else {
         document.getElementById('message').textContent = result.message;
     }

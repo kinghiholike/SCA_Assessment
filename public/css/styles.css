@@ -8,20 +8,27 @@
 /* Global styles */
 body {
   font-family: Arial, sans-serif;
-  
+  background-image: url('images/background.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
 }
 
 .container {
   max-width: 400px;
-  margin: 50px auto;
-  background-color: #fff;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.9);
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
 }
 
-h1 {
-  text-align: center;
+h1, h2 {
   margin-bottom: 20px;
 }
 
@@ -32,6 +39,7 @@ h1 {
 
 .form-group {
   margin-bottom: 15px;
+  text-align: left;
 }
 
 label {
@@ -46,6 +54,7 @@ input[type="password"] {
   font-size: 16px;
   border: 1px solid #ccc;
   border-radius: 4px;
+  width: 100%;
 }
 
 .btn {
@@ -55,6 +64,7 @@ input[type="password"] {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  margin-top: 10px;
 }
 
 .btn:hover {
@@ -62,8 +72,8 @@ input[type="password"] {
 }
 
 p {
-  text-align: center;
   margin-top: 10px;
+  font-size: 16px;
 }
 
 a {
@@ -73,4 +83,13 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+#logoutButton {
+  margin-top: 20px;
+}
+
+#profile p {
+  text-align: left;
+  margin-bottom: 10px;
 }
