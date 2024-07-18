@@ -3,7 +3,7 @@ const dotenv = require('dotenv');
 
 // Configure dotenv
 dotenv.config();
-const JWT_SECRET = process.env.JWT_SECRET
+const JWT_SECRET = process.env.JWT_SECRET || '1234567890';
 
 // Middleware to authenticate user using JWT
 const authenticateUser = (req, res, next) => {
