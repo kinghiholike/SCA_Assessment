@@ -10,9 +10,10 @@ o	Navigate to the Project Directory
 o	Install Dependencies
 3.	Running the Project
 4.	Usage
-5.	Contributing
-6.	License
-7.	Contact
+5.  Docker
+6.	Contributing
+7.	License
+8.	Contact
 
 
 Prerequisites
@@ -58,6 +59,20 @@ Usage
 
 
 Once the server is running, you can access the application through your web browser. Follow any additional setup instructions provided within the project or its documentation.
+  
+
+Docker 
+
+login toy your docker hub
+ - docker login
+
+Pull the image
+
+  - docker pull kingzzo/sca_assessment:latest
+
+Run the image
+
+  - docker run -d kingzzo/sca_assessment:latest
 
 
 Contributing
